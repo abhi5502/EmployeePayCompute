@@ -12,3 +12,17 @@ G:\My Project  Visual Studio 2019\EmployeePayCompute.Services\obj\Debug\netcorea
 G:\My Project  Visual Studio 2019\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.csproj.CopyComplete
 G:\My Project  Visual Studio 2019\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.dll
 G:\My Project  Visual Studio 2019\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.pdb
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\bin\Debug\netcoreapp3.1\EmployeePayCompute.Services.deps.json
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\bin\Debug\netcoreapp3.1\EmployeePayCompute.Services.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\bin\Debug\netcoreapp3.1\EmployeePayCompute.Services.pdb
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\bin\Debug\netcoreapp3.1\EmployeePayCompute.Entity.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\bin\Debug\netcoreapp3.1\EmployeePayCompute.Persistence.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\bin\Debug\netcoreapp3.1\EmployeePayCompute.Entity.pdb
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\bin\Debug\netcoreapp3.1\EmployeePayCompute.Persistence.pdb
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.csprojAssemblyReference.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.AssemblyInfoInputs.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.AssemblyInfo.cs
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.csproj.CoreCompileInputs.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.csproj.CopyComplete
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Services\obj\Debug\netcoreapp3.1\EmployeePayCompute.Services.pdb

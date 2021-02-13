@@ -7,3 +7,12 @@ G:\My Project  Visual Studio 2019\EmployeePayCompute.Entity\obj\Debug\netcoreapp
 G:\My Project  Visual Studio 2019\EmployeePayCompute.Entity\obj\Debug\netcoreapp3.1\EmployeePayCompute.Entity.csproj.CoreCompileInputs.cache
 G:\My Project  Visual Studio 2019\EmployeePayCompute.Entity\obj\Debug\netcoreapp3.1\EmployeePayCompute.Entity.dll
 G:\My Project  Visual Studio 2019\EmployeePayCompute.Entity\obj\Debug\netcoreapp3.1\EmployeePayCompute.Entity.pdb
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\bin\Debug\netcoreapp3.1\EmployeePayCompute.Entity.deps.json
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\bin\Debug\netcoreapp3.1\EmployeePayCompute.Entity.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\bin\Debug\netcoreapp3.1\EmployeePayCompute.Entity.pdb
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Debug\netcoreapp3.1\EmployeePayCompute.Entity.csprojAssemblyReference.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Debug\netcoreapp3.1\EmployeePayCompute.Entity.AssemblyInfoInputs.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Debug\netcoreapp3.1\EmployeePayCompute.Entity.AssemblyInfo.cs
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Debug\netcoreapp3.1\EmployeePayCompute.Entity.csproj.CoreCompileInputs.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Debug\netcoreapp3.1\EmployeePayCompute.Entity.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Debug\netcoreapp3.1\EmployeePayCompute.Entity.pdb

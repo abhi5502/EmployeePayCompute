@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj",
+      "projectUniqueName": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj",
       "projectName": "EmployeePayCompute.Entity",
-      "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj",
+      "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj",
       "packagesPath": "C:\\Users\\Abhi\\.nuget\\packages\\",
-      "outputPath": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Entity\\obj\\",
+      "outputPath": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

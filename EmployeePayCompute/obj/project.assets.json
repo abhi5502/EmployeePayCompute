@@ -6204,11 +6204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute\\EmployeePayCompute.csproj",
+      "projectUniqueName": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute\\EmployeePayCompute.csproj",
       "projectName": "EmployeePayCompute",
-      "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute\\EmployeePayCompute.csproj",
+      "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute\\EmployeePayCompute.csproj",
       "packagesPath": "C:\\Users\\Abhi\\.nuget\\packages\\",
-      "outputPath": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute\\obj\\",
+      "outputPath": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6230,11 +6230,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj": {
-              "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj"
+            "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj": {
+              "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj"
             },
-            "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Services\\EmployeePayCompute.Services.csproj": {
-              "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Services\\EmployeePayCompute.Services.csproj"
+            "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Services\\EmployeePayCompute.Services.csproj": {
+              "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Services\\EmployeePayCompute.Services.csproj"
             }
           }
         }

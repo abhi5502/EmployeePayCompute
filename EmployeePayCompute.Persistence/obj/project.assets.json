@@ -5977,11 +5977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Persistence\\EmployeePayCompute.Persistence.csproj",
+      "projectUniqueName": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Persistence\\EmployeePayCompute.Persistence.csproj",
       "projectName": "EmployeePayCompute.Persistence",
-      "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Persistence\\EmployeePayCompute.Persistence.csproj",
+      "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Persistence\\EmployeePayCompute.Persistence.csproj",
       "packagesPath": "C:\\Users\\Abhi\\.nuget\\packages\\",
-      "outputPath": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Persistence\\obj\\",
+      "outputPath": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6003,8 +6003,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj": {
-              "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj"
+            "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj": {
+              "projectPath": "G:\\My Project  Visual Studio 2019\\EmployeePayComputeApp\\EmployeePayCompute.Entity\\EmployeePayCompute.Entity.csproj"
             }
           }
         }

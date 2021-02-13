@@ -170,5 +170,63 @@ namespace EmployeePayCompute.Controllers
             }
             return View();
         }
+        [HttpGet]
+        public IActionResult Detail(int id)
+        {
+            var employee = _employeeService.GetByID(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            EmployeeDetailViewModel model = new EmployeeDetailViewModel()
+            {
+
+                ID = employee.ID,
+                EmployeeNo = employee.EmployeeNo,
+                FullName = employee.FullName,
+                Gender = employee.Gender,
+                DOB = employee.DOB,
+                DateJoined = employee.DateJoined,
+                Designation = employee.Designation,
+                NationalInsurenceNo = employee.NationalInsurenceNo,
+                Phone = employee.Phone,
+                Email = employee.Email,
+                PaymentMethod = employee.PaymentMethod,
+                StudentLoan = employee.StudentLoan,
+                UnionMember = employee.UnionMember,
+                Address = employee.Address,
+                City = employee.City,
+                ImageUrl = employee.ImageUrl,
+                PostCode = employee.PostCode
+
+            };
+            return View(model);
+
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var employee = _employeeService.GetByID(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            var model = new EmployeeDeleteViewModel()
+            {
+                ID = employee.ID,
+                FullName = employee.FullName
+            };
+
+            return View(model);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(EmployeeDeleteViewModel model)
+        {
+            await _employeeService.Delete(model.ID);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

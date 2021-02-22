@@ -178,3 +178,4 @@ G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\D
 G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\ref\EmployeePayCompute.dll
 G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\EmployeePayCompute.pdb
 G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\EmployeePayCompute.genruntimeconfig.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\Razor\Views\Employee\Index.cshtml.g.cs

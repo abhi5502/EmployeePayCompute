@@ -493,3 +493,5 @@ G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\bin\D
 G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\Razor\Views\Employee\Detail.cshtml.g.cs
 G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\Razor\Views\Employee\Edit.cshtml.g.cs
 G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\Razor\Views\Employee\Delete.cshtml.g.cs
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

@@ -4,7 +4,9 @@ using System.Text;
 
 namespace EmployeePayCompute.Services
 {
-    interface INationalInsuranceContributionService
+    public interface INationalInsuranceContributionService
     {
+        decimal NIContribution(decimal totalAount);
+
     }
 }

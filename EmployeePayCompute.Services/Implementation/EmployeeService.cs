@@ -1,5 +1,6 @@
 ﻿using EmployeePayCompute.Entity;
 using EmployeePayCompute.Persistence;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -78,9 +79,18 @@ namespace EmployeePayCompute.Services.Implementation
 
         public decimal UnionFees(int id)
         {
-            throw new NotImplementedException();
+            var employee = GetByID(id);
+            var fee = employee.UnionMember == UnionMember.Yes ? 10m : 0m;
+            return fee;
         }
 
-        
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.FullName,
+                Value = emp.ID.ToString()
+            }); ;
+        }
     }
 }

@@ -23,7 +23,7 @@ namespace EmployeePayCompute.Services.Implementation
                 //Income tax
                 tax = (1042 * 0m) + ((totalAmount - 1042) * taxRate);
             }
-            else if(totalAmount>3125&&totalAmount<=12500)
+            else if(totalAmount > 3125  &&totalAmount<=12500)
             {
                 //Higher tax rate
                 taxRate = .40m;

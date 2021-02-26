@@ -24,7 +24,7 @@ namespace EmployeePayCompute.Services.Implementation
                 NIRate = .12m;
                 NIC = ((totalAount - 719) * NIRate);
             }
-            else if(totalAount> 4167)
+            else if(totalAount > 4167)
             {
                 // Above Upper Earnings Limit (UEL)
                 NIRate = .02m;

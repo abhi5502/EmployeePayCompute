@@ -14,7 +14,6 @@ namespace EmployeePayCompute.Services.Implementation
     {
         private decimal cotractualEarinigs;
         private decimal overtimeHours; 
-
         private readonly ApplicationDbContext _context;
         public PayComputationService(ApplicationDbContext context)
         {
@@ -52,13 +51,16 @@ namespace EmployeePayCompute.Services.Implementation
             return allTaxYear;
         }
 
-        public PaymentRecord GetById(int id) => _context.PaymentRecord.Where(pay => pay.ID == id).FirstOrDefault();
+        public PaymentRecord GetById(int id) 
+            => _context.PaymentRecord.Where(pay => pay.ID == id).FirstOrDefault();
 
 
-        public decimal NetPay(decimal totalEarnings, decimal totalDeduction) => totalEarnings - totalDeduction;
+        public decimal NetPay(decimal totalEarnings, decimal totalDeduction) 
+            => totalEarnings - totalDeduction;
 
 
-        public decimal OvertimeEarnings(decimal overtimeRate, decimal overtimeHours) => overtimeHours * overtimeRate;
+        public decimal OvertimeEarnings(decimal overtimeRate, decimal overtimeHours) 
+            => overtimeHours * overtimeRate;
        
 
         public decimal OvertimeHours(decimal hoursWorked, decimal contractualHours)

@@ -495,3 +495,10 @@ G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\D
 G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\Razor\Views\Employee\Delete.cshtml.g.cs
 G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\Razor\Views\Pay\Index.cshtml.g.cs
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\Razor\Views\Pay\Create.cshtml.g.cs
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\Razor\Views\Pay\Detail.cshtml.g.cs
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\obj\Debug\net5.0\Razor\Views\Pay\Payslip.cshtml.g.cs
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\bin\Debug\net5.0\RotativaCore.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\bin\Debug\net5.0\WkHTMLToPdf\wkhtmltoimage.exe
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute\bin\Debug\net5.0\WkHTMLToPdf\wkhtmltopdf.exe

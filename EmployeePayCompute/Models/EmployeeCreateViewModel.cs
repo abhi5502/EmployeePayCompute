@@ -28,7 +28,7 @@ namespace EmployeePayCompute.Models
         public string LastName { get; set; }
         public string FullName { 
             get {
-                return FirstName + (string.IsNullOrEmpty(MiddleName) ? "" : ("" + (char?)MiddleName[0] + ".").ToUpper()) + LastName;
+                return FirstName + (string.IsNullOrEmpty(MiddleName) ? " " : (" " + (char?)MiddleName[0] + ". ").ToUpper()) + LastName;
             }
         }
 

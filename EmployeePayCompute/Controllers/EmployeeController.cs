@@ -9,9 +9,11 @@ using EmployeePayCompute.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Hosting.Internal;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EmployeePayCompute.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
 

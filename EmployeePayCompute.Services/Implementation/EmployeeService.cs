@@ -1,6 +1,7 @@
 ﻿using EmployeePayCompute.Entity;
 using EmployeePayCompute.Persistence;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,7 +37,7 @@ namespace EmployeePayCompute.Services.Implementation
 
         }
 
-        public IEnumerable<Employee> GetAll() => _context.Employees;
+        public IEnumerable<Employee> GetAll() => _context.Employees.AsNoTracking().OrderBy(emp=>emp.FullName);
 
         public async Task UpdateAsync(Employee employee)
         {

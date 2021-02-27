@@ -25,7 +25,7 @@ namespace EmployeePayCompute.Controllers
             _hostingEnviroment = hostingEnviroment;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? pageNumber)
         {
             var employees = _employeeService.GetAll().Select(employee => new EmployeeIndexViewModel
             {
@@ -38,7 +38,8 @@ namespace EmployeePayCompute.Controllers
                 City = employee.City,
                 DateJoined = employee.DateJoined
             }).ToList();
-            return View(employees);
+            int pageSize = 4; 
+            return View(EmployeeListPagination<EmployeeIndexViewModel>.Create(employees, pageNumber ?? 1, pageSize) );
         }
 
         [HttpGet]
@@ -60,6 +61,7 @@ namespace EmployeePayCompute.Controllers
                     EmployeeNo = model.EmployeeNo,
                     FirstName = model.FirstName,
                     LastName = model.LastName,
+                    MiddleName=model.MiddleName,
                     FullName = model.FullName,
                     Gender = model.Gender,
                     Email = model.Email,
@@ -108,6 +110,7 @@ namespace EmployeePayCompute.Controllers
                 ID = employee.ID,
                 EmployeeNo = employee.EmployeeNo,
                 FirstName = employee.FirstName,
+                MiddleName=employee.MiddleName,
                 LastName = employee.LastName,
                 Gender = employee.Gender,
                 Email = employee.Email,
@@ -152,8 +155,8 @@ namespace EmployeePayCompute.Controllers
                 employee.StudentLoan = model.StudentLoan;
                 employee.UnionMember = model.UnionMember;
                 employee.Address = model.Address;
-                employee.City = model.EmployeeNo;
-                employee.PostCode = model.EmployeeNo;
+                employee.City = model.City;
+                employee.PostCode = model.PostCode;
                 if (model.ImageUrl != null && model.ImageUrl.Length > 0)
                 {
                     var uploadDir = @"images/employee";

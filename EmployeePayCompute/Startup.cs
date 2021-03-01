@@ -34,11 +34,13 @@ namespace EmployeePayCompute
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
+            services.AddRazorPages();
 
             //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
            
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultUI()
                 .AddDefaultTokenProviders();
             services.Configure<IdentityOptions>(options =>
             {
@@ -56,13 +58,22 @@ namespace EmployeePayCompute
                 options.Lockout.AllowedForNewUsers = true;
 
             });
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddScoped<IPayComputationService, PayComputationService>();
             services.AddScoped<INationalInsuranceContributionService, NationalInsuranceContributionService>();
             services.AddScoped<ITaxService, TaxService>();
+
+            services.ConfigureApplicationCookie(config =>
+            {
+                config.LoginPath = $"/Identity/Account/Login";
+                config.LoginPath = $"/Identity/Account/Logout";
+                config.LoginPath = $"/Identity/Account/AccessDenied";
+
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

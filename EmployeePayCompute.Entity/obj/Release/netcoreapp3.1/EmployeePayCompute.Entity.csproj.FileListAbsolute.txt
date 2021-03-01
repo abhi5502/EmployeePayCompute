@@ -1,0 +1,9 @@
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\bin\Release\netcoreapp3.1\EmployeePayCompute.Entity.deps.json
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\bin\Release\netcoreapp3.1\EmployeePayCompute.Entity.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\bin\Release\netcoreapp3.1\EmployeePayCompute.Entity.pdb
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Release\netcoreapp3.1\EmployeePayCompute.Entity.csprojAssemblyReference.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Release\netcoreapp3.1\EmployeePayCompute.Entity.AssemblyInfoInputs.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Release\netcoreapp3.1\EmployeePayCompute.Entity.AssemblyInfo.cs
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Release\netcoreapp3.1\EmployeePayCompute.Entity.csproj.CoreCompileInputs.cache
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Release\netcoreapp3.1\EmployeePayCompute.Entity.dll
+G:\My Project  Visual Studio 2019\EmployeePayComputeApp\EmployeePayCompute.Entity\obj\Release\netcoreapp3.1\EmployeePayCompute.Entity.pdb
